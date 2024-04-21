@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05314ef9-5289-4b6a-ae1b-59a827182e86">
+  <producedTypes>
+    <managerType typeId="ad478783-5ae3-4343-994d-f2c0a7c5db26" valueTypeId="71751929-b9ea-4bd9-8103-46123a678830"/>
+    <valueManagerType typeId="63fac106-7cf8-476d-ab1f-171c1d3e98d7" valueTypeId="eed11286-c86a-426d-8fb1-0c11279a129e"/>
+    <valueKeyType typeId="0f29475c-bf53-461e-8377-f0bbaf8c876f" valueTypeId="671e694c-be08-4b98-ab4d-62f52d97d392"/>
+  </producedTypes>
+  <name>МаксимальнаяДоляОплатыБаллами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальная доля оплаты баллами</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
